@@ -1,22 +1,84 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<meta charset="UTF-8">
-<title>Renew your tax credits</title>
-<link rel="stylesheet" type="text/css" href="styles.css">
-<script src="main.js"></script>
+    <meta charset="UTF-8">
+    <title>Renew your tax credits</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="main.js"></script>
 </head>
 
 <body>
-<header> 
-Renew your tax credits
-</header>
-<section>
+    <section class="contentContainer">
+        <div class="topBorderRow"></div>
+        <div class="categoryTitle">
+            HM Revenue & Customs
+        </div>
+        <h1 class="pageTitle">
+            Renew your tax credits
+        </h1>
+        <section>
+            <header class="formTitle">Your details</header><br/>
+            <div>
+                <label for="niNum">Your National insurance number</label>
+                <a href="#" class="infoLink">show me where to find this</a>
+                <br/>
+                <input type="text" name="niNum" id="niNum"><br>
+                <br>
+            </div>
+            <div class="taxCreditInfo">
+               Your tax cedit renewal number is the 15 digit number on the bottom right hand corner of your annual declaration. Enter it below
+                
+            </div>
+            <div>
+                <label for="taxNum">Your tax credit renewal number</label><br/>
+                <input type="text" name="taxNum" id="taxNum" class="renewalTxt"><br>
+                <button type="submit" class="nextBtn">Next</button>
+                <br>
+            </div>
+            <div class="pageHelpSection">
+                <a href="#" class="pageHelpLink">Get help with this page</a>
+            </div>
+        </section>
+        
+    </section>
+    <footer>
+        <section class="footerContent">
+            <div class="footerContainer">
 
-</section>
-<footer>
-</footer>
-          
+
+
+
+                <div class="footerLinks">
+
+                    <div class="footerLeft">
+                        <ul class="footerLinksList">
+                            <li><a href='#'>Help</a></li>
+                            <li><a href='#'>Cookies</a></li>
+                            <li><a href='#'>Privacy policy</a></li>
+                            <li><a href='#'>Terms and conditions</a></li>
+
+                        </ul>
+
+
+                        <div class="copyrightText">
+                            <h3>OGL</h3>
+                            <p>All content is available under the <a href="#">
+                  Open Government Licence v3.0
+                  </a>, except where otherwise stated
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="copyright">
+                        &copy; Crown Copyright
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </footer>
+
 </body>
 
 </html>

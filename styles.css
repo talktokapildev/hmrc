@@ -1,0 +1,122 @@
+html, body{
+    height:100vh;/* make sure it is at least as tall as the viewport */
+    position:relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.topBorderRow{
+    min-height: 5px;
+    background-color: #005abc;
+}
+.categoryTitle{
+    margin-top: 10px;
+    border-left-color: lightskyblue;
+    border-left-width: 2px;
+    border-left-style: solid;
+    padding-left: 20px;
+}
+.infoLink{
+    padding-left: 30px;
+    color: lightskyblue;
+}
+input{
+    height: 20px
+}
+.renewalTxt{
+    width: 200px
+}
+.pageHelpSection{
+    height: 10vh;
+    line-height: 10vh;
+}
+.taxCreditInfo{
+height: 20vh;
+width: 40%;
+}
+.nextBtn{
+    background-color: green;
+    color: white;
+    line-height: 2;
+    width: 50px;
+    border-style: none;
+    margin-top: 10px
+}
+.contentContainer{
+    margin-left: 50px;
+    margin-right:50px;
+    height: 70vh;
+}
+.pageTitle{
+    font-size: 40px;
+}
+
+.formTitle{
+    font-size: 20px;
+    font-weight: bold
+}
+footer{
+    height: 20vh;
+    border:gray;
+    background-color: lightgrey;
+    position: relative;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+footer a{
+    color: grey
+}
+/*.footerContainer{
+    padding-top: 10vh
+}*/
+.footerContent{
+   margin-left: 50px;
+    margin-right:50px; 
+}
+.footerLinks{
+    width: 100%
+}
+.footerLeft{
+    width: 80%
+}
+.footerLinks, ul, li{
+    display: inline-block
+}
+.footerLinksList{
+    padding-left: 0px;
+    margin-bottom: 0px;
+}
+.copyrightText>h3{
+    display: inline-block;
+    margin-top: 0px
+}
+.copyrightText>p{
+    display: inline-block;
+}
+
+.copyright, .footerLeft{
+    display: inline-block
+}
+
+@media screen  and (min-width: 1044px) {
+    /*ul li a {
+        padding-left: 30px;
+        background: url(email-icon.png) left center no-repeat;
+    }*/
+    .footerContainer{
+        padding-top: 10vh
+    }
+}
+
+@media screen  and (max-width: 1044px) {
+    /*ul li a {
+        padding-left: 30px;
+        background: url(email-icon.png) left center no-repeat;
+    }*/
+    .copyrightText>p{
+    width: 90%;
+}
+footer{
+    height: 15vh;
+}
+
+}
